@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    
+}
+.container{
+    padding:30px;
+    background-color: rgb(233, 232, 220);
+}
+
+#books{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.book{
+    width: 25%;
+    padding:25px;
+    text-align: center;
+    
+}
+.book__photo{
+    width: 200px;
+    height: 300px;
+}
+.bookMarket{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 207, 169);
+    padding:20px;
+  
+  
+}
+
+.book-logo{
+    width: 60px;
+    border-radius: 50%;
+}
+.book-input{
+    margin-top:10px;
+   
+}
+.btn-login{
+    text-decoration: none;
+    margin:20px 10px;
+    color:#fff;
+    font-size: 18px;
+}
+
+.header-input{
+    padding:10px  80px 10px 10px;
+    border:none;
+    border-radius: 3px;
+    font-size: 24px;
+}
+.cart-count{
+    display: inline-block;
+    padding:5px;
+    background-color: red;
+    color:#fff;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.category-btn{
+    margin:10px;
+    /* border-bottom:1px solid gray; */
+    padding:10px;
+    width: 150px;
+    border:none;
+    
+   
+}
+.category{
+    margin:10px;
+    border-bottom:1px solid gray;
+    padding:10px;
+    width: 150px;
+    border: none;
+}
+.category-buttons{
+   margin:30px 10px;
+   width: 200px;
+   font-size: 24px;
+   box-shadow:  rgb(100, 185, 153) 20px 30px 20px 10px;
+   background-color: rgb(91, 179, 130)
+}
+.book__btn{
+    margin:20px;
+    padding:10px;
+    width: 200px;
+    background-color: rgb(56, 56, 228);
+    border:none;
+    color:#fff;
+}
